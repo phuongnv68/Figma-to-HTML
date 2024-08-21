@@ -496,8 +496,8 @@ a {
   border-radius: 16px;
   background: #fff;
 }
-.blogs .item:hover{
-box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+.blogs .item:hover {
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
 }
 .blogs .item .thumb {
   width: 100%;
@@ -544,27 +544,27 @@ box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
   font-weight: 600;
   line-height: 1.758; /* 175% */
 }
-.blogs .item .btn{
+.blogs .item .btn {
   margin-top: 12px;
   font-size: 1.4rem;
 }
-.blogs .item .btn:hover{
+.blogs .item .btn:hover {
   background: var(--primary-color);
 }
-.blogs .dots{
+.blogs .dots {
   display: flex;
   justify-content: center;
   gap: 6px;
   margin-top: 38px;
 }
-.blogs .dot{
+.blogs .dot {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-background: #5F5B53;
-cursor: pointer;
+  background: #5f5b53;
+  cursor: pointer;
 }
-.blogs .dot.active{
+.blogs .dot.active {
   background: var(--primary-color);
   cursor: default;
 }
